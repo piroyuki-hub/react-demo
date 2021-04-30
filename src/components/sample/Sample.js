@@ -1,5 +1,9 @@
 import style from './style.module.scss';
+import cn from 'classnames';
 
 export const Sample = ({ children }) => {
-  return <p className={style.sample}>{children}</p>;
+  const styles = [style.sample];
+  styles.push(style.blink);
+
+  return <p className={cn(styles)}>{children}</p>;
 };

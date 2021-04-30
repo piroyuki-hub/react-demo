@@ -2,3 +2,16 @@
   font-size: 3rem;
   color: lightgray;
 }
+
+.blink {
+  animation: blinkAnime 1s infinite alternate;
+}
+
+@keyframes blinkAnime {
+  0% {
+    color: white;
+  }
+  100% {
+    color: lightgray;
+  }
+}
