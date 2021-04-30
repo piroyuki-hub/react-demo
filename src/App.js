@@ -1,5 +1,5 @@
 import { Sample } from './components/sample';
-import { Form8 } from './components/form';
+import { Form8 } from '@form';
 
 import 'styles/base.module.scss';
 
